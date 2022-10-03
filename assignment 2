@@ -20,10 +20,9 @@ public class App {
         // WHILE LOOP
         int nickNameCount = 5;
         while (nickNameCount != 0){
-            
+            //CONTINUE
             nickNameCount--;
-            if (nickNameCount == 3) {
-              //CONTINUE  
+            if (nickNameCount == 3) {  
               continue;
             }
             System.out.println("Q");
