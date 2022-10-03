@@ -3,6 +3,11 @@ public class App {
              //FOR LOOP
         for (int i = 5; i != 0; i--) {
             System.out.println("Justin Myles");
+              //BREAK
+          if ( firstname ==2){
+              System.out.println("Time out");
+                break;
+           }
         }             
             //DO WHILE   
             int Surname = 5;         
@@ -12,10 +17,14 @@ public class App {
         } while (Surname != 0);
                         
             //WHILE LOOP  
-            int nickName = 5;         
+            int nickName = 5;  
+       
             while (nickName != 0) {
             System.out.println("Tatin!");
-            nickName--;
+            nickName--; 
+     
+            if(nickname ==3){
+                continue;
          }
     }
 }
