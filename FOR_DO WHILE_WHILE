@@ -15,7 +15,7 @@ public class App {
             int nickName = 5;         
             while (nickName != 0) {
             System.out.println("Tatin!");
-            rideCount--;
+            nickName--;
          }
     }
 }
