@@ -1,24 +1,18 @@
 public class App {
     public static void main(String[] args) throws Exception {
              //FOR LOOP
-             
         for (int i = 5; i != 0; i--) {
             System.out.println("Justin Myles");
-        }  
-        
-            int rideCount = 5;
-            
-            //DO WHILE
-            
+        }             
+            //DO WHILE   
+            int Surname = 5;         
           do {  
             System.out.println("Cañedo");
-            rideCount--;
-        } while (rideCount != 0);
-            
-            int nickName = 5;
-            
-            //WHILE LOOP
-            
+            Surname--;
+        } while (Surname != 0);
+                        
+            //WHILE LOOP  
+            int nickName = 5;         
             while (nickName != 0) {
             System.out.println("Tatin!");
             rideCount--;
