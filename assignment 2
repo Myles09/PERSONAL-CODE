@@ -23,7 +23,8 @@ public class App {
             
             nickNameCount--;
             if (nickNameCount == 3) {
-                continue;
+              //CONTINUE  
+              continue;
             }
             System.out.println("Q");
            
