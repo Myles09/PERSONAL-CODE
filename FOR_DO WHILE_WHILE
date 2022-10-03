@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-             //For
+             //FOR LOOP
              
         for (int i = 5; i != 0; i--) {
             System.out.println("Justin Myles");
@@ -8,7 +8,7 @@ public class App {
         
             int rideCount = 5;
             
-            //do While
+            //DO WHILE
             
           do {  
             System.out.println("Cañedo");
@@ -17,7 +17,7 @@ public class App {
             
             int nickName = 5;
             
-            //While
+            //WHILE LOOP
             
             while (nickName != 0) {
             System.out.println("Tatin!");
