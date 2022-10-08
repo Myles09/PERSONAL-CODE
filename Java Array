@@ -1,0 +1,13 @@
+public class App { 
+
+public static void main(String[] args) {
+
+    String[] cars = {"Civic", "Mustang", "Toyota", "Rx7"};
+    System.out.println(cars[0]);
+
+    String[] food = {"Sisig", "Chicken", "Hotdog", "Ham"};
+    System.out.println(food[3]);
+
+    String[] Cellphone = {"Samsung", "Iphone", "Oppo", "Redmi"};
+    System.out.println(Cellphone[1]);
+ } }
