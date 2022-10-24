@@ -1,0 +1,16 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        String [][] myLetters = {{"A", "B", "C",},
+     {"D", "E", "F"},
+     {"G", "H", "I"},
+     {"J", "K", "L"}};
+     
+     
+     for (int rows = 0; rows <myLetters.length; rows++){
+      System.out.println("");    
+     for (int columns = 0; columns < 3; columns++){
+         System.out.print(myLetters[rows][columns]);
+        }
+      }
+    }
+ }
