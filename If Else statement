@@ -1,0 +1,50 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Sequential Structure
+        // Methods are called in order.
+       
+       //Conditional Structure
+       Boolean isHoliday = false;
+       Boolean Suspended = true;
+       
+         if(isHoliday) {
+            System.out.println("Going to SM");
+         }
+         
+         else if (Suspended) {
+            System.out.println("stay at home");
+         }
+         else
+         {
+            // Step 1
+             walk1();
+    
+            // Step 2
+            rideJeep();
+    
+            // Step 3
+            rideSuv();
+    
+           // Step 4
+            walk2();
+         }
+}    
+    
+     static void walk1() {
+       System.out.println("walk along Kudyapi Street");
+       System.out.println("Exit along Quirino Highway");
+     }
+     static void rideJeep() {
+       System.out.println("Ride Jeep along Quirino Highway");
+       System.out.println("Exit Jeep along Robinsons");
+    }
+     static void rideSuv() {
+      System.out.println("Ride Suv at Robinsons");
+      System.out.println("Exit Suv at UST gate 2");
+    }
+     static void walk2() {
+      System.out.println("walk in UST gate 2");
+      System.out.println("Exit in Jhocson Street");
+     }
+} 
