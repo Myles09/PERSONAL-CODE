@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="754.0" prefWidth="828.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.homepageController">
+   <children>
+      <ImageView fitHeight="754.0" fitWidth="927.0" layoutX="-98.0">
+         <image>
+            <Image url="@../images/Nutritionbg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="278.0" layoutY="55.0" text="Nutrition and Dietary Advice" textFill="#474dc9">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="102.0" text="1.What are your primary health goals or reasons for seeking nutrition advice?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="111.0" layoutY="117.0" prefHeight="41.0" prefWidth="646.0" style="-fx-border-color: blue;" />
+      <Label layoutX="102.0" layoutY="162.0" text="2.Can you describe a typical day of eating for you (e.g., breakfast, lunch, dinner, snacks)?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="110.0" layoutY="177.0" prefHeight="41.0" prefWidth="646.0" style="-fx-border-color: blue;" />
+      <Label layoutX="102.0" layoutY="224.0" text="3.Are there any foods you absolutely love or dislike?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="111.0" layoutY="239.0" prefHeight="41.0" prefWidth="646.0" style="-fx-border-color: blue;" />
+      <Label layoutX="102.0" layoutY="286.0" text="4.Are you currently taking any dietary supplements or vitamins?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="110.0" layoutY="301.0" prefHeight="41.0" prefWidth="645.0" style="-fx-border-color: blue;" />
+      <Label layoutX="102.0" layoutY="350.0" text="5.Do you have any existing medical conditions or specific dietary needs (e.g., diabetes, allergies, lactose intolerance)?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="110.0" layoutY="365.0" prefHeight="41.0" prefWidth="645.0" style="-fx-border-color: blue;" />
+      <Label layoutX="102.0" layoutY="414.0" text="6.How often do you engage in physical activity or exercise, and what types do you prefer?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="110.0" layoutY="429.0" prefHeight="41.0" prefWidth="645.0" style="-fx-border-color: blue;" />
+      <Label layoutX="102.0" layoutY="478.0" text="7.Are you looking for short-term dietary changes or a long-term, sustainable plan?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="110.0" layoutY="493.0" prefHeight="41.0" prefWidth="645.0" style="-fx-border-color: blue;" />
+      <Label layoutX="102.0" layoutY="542.0" text="8.Do you have any budgetary constraints or specific dietary needs that may affect your food choices?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="111.0" layoutY="557.0" prefHeight="41.0" prefWidth="645.0" style="-fx-border-color: blue;" />
+      <Label layoutX="99.0" layoutY="606.0" text="9.What level of commitment are you willing to make to achieve your dietary goals?">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="110.0" layoutY="621.0" prefHeight="41.0" prefWidth="645.0" style="-fx-border-color: blue;" />
+      <Button fx:id="NDA" layoutX="400.0" layoutY="674.0" mnemonicParsing="false" onAction="#navigatePayment" style="-fx-background-color: blue;" text="Next" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

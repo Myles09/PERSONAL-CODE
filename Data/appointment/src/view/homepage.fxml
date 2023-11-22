@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1116.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.homepageController">
+   <children>
+      <ScrollPane layoutX="2.0" layoutY="25.0" prefHeight="676.0" prefWidth="886.0">
+         <content>
+          <AnchorPane prefHeight="1669.0" prefWidth="853.0">
+               <children>
+                  <ImageView fitHeight="1732.0" fitWidth="892.0" layoutX="-5.0" layoutY="-246.0">
+                     <image>
+                        <Image url="@../images/homebg1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="721.0" fitWidth="895.0" layoutX="-12.0" layoutY="663.0">
+                     <image>
+                        <Image url="@../images/2ndbg.jpg" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="326.0" layoutY="40.0" text="Services We Provide">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="241.0" fitWidth="265.0" layoutX="33.0" layoutY="85.0">
+                     <image>
+                        <Image url="@../images/bg1st.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="248.0" fitWidth="257.0" layoutX="315.0" layoutY="80.0">
+                     <image>
+                        <Image url="@../images/bg1st.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="233.0" fitWidth="265.0" layoutX="151.0" layoutY="343.0">
+                     <image>
+                        <Image url="@../images/bg1st.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="233.0" fitWidth="277.0" layoutX="456.0" layoutY="346.0">
+                     <image>
+                        <Image url="@../images/bg1st.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="246.0" fitWidth="271.0" layoutX="579.0" layoutY="84.0">
+                     <image>
+                        <Image url="@../images/bg1st.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="97.0" fitWidth="207.0" layoutX="90.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/1st.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="35.0" layoutY="239.0" text="This involves discussing general health" />
+                  <Label layoutX="40.0" layoutY="257.0" prefHeight="21.0" prefWidth="238.0" text="concerns, symptoms, and receiving" />
+                  <Label layoutX="35.0" layoutY="275.0" text=" advice on lifestyle changes or potential " />
+                  <Button fx:id="generalHealthConsultationButton" layoutX="74.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleGeneralHealthConsultation" style="-fx-background-color: Blue;" text="General Health Consultation" textFill="WHITE" />
+                  <Label layoutX="130.0" layoutY="302.0" text="treatments." />
+                  <ImageView fitHeight="109.0" fitWidth="184.0" layoutX="349.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/2nd.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="320.0" layoutY="239.0" text="For certain medications, a doctor can " />
+                  <Label layoutX="322.0" layoutY="257.0" text="review your medical history and, it" />
+                  <Label layoutX="314.0" layoutY="272.0" text=" appropriate, provide a prescription for " />
+                  <Button fx:id="prescriptionRefillsButton" layoutX="357.0" layoutY="209.0" mnemonicParsing="false" style="-fx-background-color: blue;" text="Prescription Refills" textFill="WHITE" />
+                  <Label layoutX="395.0" layoutY="292.0" text="a refill." />
+                  <ImageView fitHeight="107.0" fitWidth="212.0" layoutX="606.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/3rd.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="597.0" layoutY="247.0" text="Therapists and psychologists can " />
+                  <Label layoutX="580.0" layoutY="261.0" text="provide counseling and therapy sessions " />
+                  <Label layoutX="586.0" layoutY="275.0" text="for mental health conditions through " />
+                  <Button fx:id="HealthCounselingButton" layoutX="593.0" layoutY="209.0" mnemonicParsing="false" onAction="#MentalHealthCounseling" style="-fx-background-color: blue;" text="Mental Health Counseling" textFill="WHITE" />
+                  <Label layoutX="657.0" layoutY="291.0" text="video calls." />
+                  <ImageView fitHeight="113.0" fitWidth="174.0" layoutX="191.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/4th.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="171.0" layoutY="496.0" prefHeight="21.0" prefWidth="265.0" text="Nutritionists and dietitians can provide " />
+                  <Label layoutX="167.0" layoutY="514.0" prefHeight="21.0" prefWidth="260.0" text="personalized dietary plans and advice" />
+                  <Label layoutX="204.0" layoutY="534.0" prefHeight="21.0" prefWidth="223.0" text=" via online consultations." />
+                  <Button fx:id="nutritionDietaryAdviceButton" layoutX="172.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleNutritionDietaryAdvice" style="-fx-background-color: blue;" text="Nutrition and Dietary Advice" textFill="WHITE" />
+                  <ImageView fitHeight="113.0" fitWidth="212.0" layoutX="496.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/5th.jpg" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="471.0" layoutY="496.0" text="Issues like contraception, sexually " />
+                  <Label layoutX="458.0" layoutY="514.0" text="transmitted infections, and sexual dysfu-" />
+                  <Label layoutX="458.0" layoutY="534.0" prefHeight="21.0" prefWidth="262.0" text="nction can often be addressed through " />
+                  <Button fx:id="sexualHealthConsultationButton" layoutX="482.0" layoutY="462.0" mnemonicParsing="false" onAction="#handleSexualHealthConsultation" style="-fx-background-color: blue;" text="Sexual Health Consultations" textFill="WHITE" />
+                  <Label layoutX="507.0" layoutY="555.0" text="online consultations." />
+                  <Label layoutX="390.0" layoutY="674.0" text="OUR TEAM">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="285.0" layoutY="690.0" text="Our ">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="335.0" layoutY="690.0" text="Specialist" textFill="#4912a1">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="454.0" layoutY="690.0" text="Doctor Team">
+                     <font>
+                        <Font name="Arial Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="234.0" fitWidth="165.0" layoutX="52.0" layoutY="742.0">
+                     <image>
+                        <Image url="@../images/bluebg.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="165.0" layoutX="323.0" layoutY="742.0">
+                     <image>
+                        <Image url="@../images/bluebg.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="165.0" layoutX="597.0" layoutY="742.0">
+                     <image>
+                        <Image url="@../images/bluebg.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="165.0" layoutX="200.0" layoutY="1023.0">
+                     <image>
+                        <Image url="@../images/bluebg.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="234.0" fitWidth="165.0" layoutX="480.0" layoutY="1023.0">
+                     <image>
+                        <Image url="@../images/bluebg.png" />
+                     </image>
+                     <effect>
+                        <BoxBlur />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="240.0" fitWidth="190.0" layoutX="146.0" layoutY="753.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/1stdoctor.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="222.0" fitWidth="151.0" layoutX="417.0" layoutY="765.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/2nddoctor.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="226.0" fitWidth="166.0" layoutX="588.0" layoutY="1054.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/5thdoctor.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="226.0" fitWidth="148.0" layoutX="698.0" layoutY="763.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/3rddoctor.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="226.0" fitWidth="148.0" layoutX="291.0" layoutY="1056.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/4thdoctor.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="57.0" fitWidth="886.0" layoutX="1.0" layoutY="1343.0">
+                     <image>
+                        <Image url="@../images/3rdlastbg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="175.0" fitWidth="886.0" layoutX="-4.0" layoutY="1482.0">
+                     <image>
+                        <Image url="@../images/3lastbg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="134.0" fitWidth="301.0" layoutX="283.0" layoutY="1347.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/lastdocbg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="359.0" fitWidth="504.0" layoutX="459.0" layoutY="1320.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/lasthealthbg.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="70.0" layoutY="1414.0" text="Get easily updated about the system">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="121.0" layoutY="1442.0" text="by following our social medias">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="24.0" fitWidth="22.0" layoutX="63.0" layoutY="1507.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/fbbg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="61.0" layoutY="1544.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/twitbg.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="61.0" layoutY="1586.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/instabg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="39.0" layoutX="291.0" layoutY="1517.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/gmailbg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="34.0" fitWidth="39.0" layoutX="294.0" layoutY="1569.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/phonebg.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" layoutY="1513.0" text="Health Link">
+                     <font>
+                        <Font name="Arial Bold" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="1551.0" text="\@HealthLink">
+                     <font>
+                        <Font name="Arial Bold" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="1593.0" text="\@HealthLink">
+                     <font>
+                        <Font name="Arial Bold" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="343.0" layoutY="1525.0" text="healthlink@gamil.com">
+                     <font>
+                        <Font name="Arial Bold" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="344.0" layoutY="1580.0" text="09059549930">
+                     <font>
+                        <Font name="Arial Bold" size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="65.0" layoutY="757.0" text="Dr. Emily Rodriguez, MD" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="57.0" layoutY="830.0" text="Dr. Emily Rodriguez, a " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="53.0" layoutY="842.0" text="15-year-old experienced " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="56.0" layoutY="853.0" text="general health consultant," textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="56.0" layoutY="864.0" text="promoting overall well-" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="56.0" layoutY="877.0" text="being and preventive" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="56.0" layoutY="853.0" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="56.0" layoutY="888.0" text="healthcare" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="341.0" layoutY="759.0" text="Dr. Sarah Jones, MD." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="334.0" layoutY="830.0" text="Dr. Jones, a licensed family " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="334.0" layoutY="842.0" text="medicine physician, offers" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="855.0" text="virtual healthcare serv" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="866.0" text="ices via a reputable " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="879.0" text="telemedicine platform, " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="890.0" text="allowing patients to " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="901.0" text="schedule appointme" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="912.0" text="nts for prescription " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="923.0" text="refills and non-em" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="332.0" layoutY="934.0" text="ergency medical " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="331.0" layoutY="945.0" text="needs. " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="614.0" layoutY="756.0" text="Dr. Emily Patel, PsyD" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="609.0" layoutY="832.0" text="Dr. Emily Patel, a licensed  " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="606.0" layoutY="842.0" text="clinical psychologist, offers online" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="605.0" layoutY="853.0" text="mental health counseling for " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="605.0" layoutY="863.0" text="anxiety, depression, " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="605.0" layoutY="876.0" text="trauma, and relationship " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="605.0" layoutY="887.0" text="issues, scheduling " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="605.0" layoutY="898.0" text="appointments through " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="605.0" layoutY="909.0" text="platform." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="213.0" layoutY="1041.0" text="Dr. John Mitchell, RD." textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="206.0" layoutY="1112.0" text="Dr. John Mitchell, a regis" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="206.0" layoutY="1124.0" text="tered dietitian, offers perso" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1137.0" text="nalized nutrition advice " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1148.0" text="through online consu" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1161.0" text="ltations. He specializ" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1172.0" text="es in weight manage" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1183.0" text="ment, chronic disea" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1194.0" text="se management, and " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1205.0" text="overall wellness, sch" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="204.0" layoutY="1216.0" text="eduling appointments " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="203.0" layoutY="1227.0" text="through platform" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="494.0" layoutY="1041.0" text="Dr. James Anderson, MD" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="491.0" layoutY="1109.0" text="Dr. James Anderson, MD, is a " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="491.0" layoutY="1121.0" text="board-certified sexual health spe" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1134.0" text="cialist offering confidential " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1145.0" text="virtual consultations on " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1158.0" text="various sexual health " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1169.0" text="concerns, including" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1180.0" text="STIs, contraeption, and " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1191.0" text="erectile dysfunction, " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1202.0" text="platform's website or " textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="489.0" layoutY="1213.0" text="app" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="9.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="next" layoutX="767.0" layoutY="1599.0" mnemonicParsing="false" style="-fx-background-color: green;" text="NEXT" textFill="WHITE">
+                     <font>
+                        <Font name="Rockwell" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

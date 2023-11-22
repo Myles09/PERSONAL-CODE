@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.firstpageController">
+   <children>
+      <SplitPane prefHeight="400.0" prefWidth="582.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="602.0">
+                     <image>
+                        <Image url="@../images/firstpagebg.jpg" />
+                     </image>
+                     <effect>
+                        <Blend mode="LIGHTEN" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="451.0" fitWidth="620.0" layoutX="33.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/firstpagedoctor.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="63.0" layoutY="63.0" text="Search &amp; find your ">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="94.0" text="Trusted Doctor here for ">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="124.0" text="Better Solution">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="33.0" layoutY="5.0" text="Health Link" textFill="#00535e">
+                     <font>
+                        <Font name="Impact" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="175.0" text="Welcome to our Online Doctor Scheduling platform, ">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="191.0" text="where convenience meets healthcare excellence.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="209.0" text="Our user-friendly website is designed to streamline the process of">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="227.0" text="booking appointments with healthcare professionals,">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="245.0" text="ensuring you receive timely and accessible medical care">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="63.0" layoutY="263.0" text="from the comfort of your own home.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="form" layoutX="63.0" layoutY="293.0" mnemonicParsing="false" onAction="#registerNow" text="Register Now" textFill="#4facbc">
+                     <font>
+                        <Font name="Times New Roman Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <TabPane layoutX="111.0" layoutY="-9.0" prefHeight="400.0" prefWidth="394.0" tabClosingPolicy="ALL_TABS">
+                    <tabs>
+                      <Tab text="Close">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="361.0" prefWidth="519.0" />
+                        </content>
+                      </Tab>
+                      <Tab text="How It Works">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TextArea layoutY="-2.0" prefHeight="106.0" prefWidth="394.0" text="1.Create Your Account&#10;Sign up and complete your profile to get started. &#10;Add essential information like your medical history &#10;and insurance details for a seamless experience.&#10;&#10;2.Browse Providers&#10;Explore our extensive list of healthcare professionals&#10;by specialty, location, or availability.&#10;&#10;3.Select Your Preferred Appointment&#10;Choose a date and time that suits your schedule. &#10;Filter by location, insurance accepted, and more for a &#10;tailored experience.&#10;&#10;4.Confirm and Attend&#10;Receive a confirmation of your appointment via email &#10;or SMS. Attend your scheduled appointment, whether&#10;in-person or via telemedicine." />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                        <Tab text="Why Choose Us">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="106.0" prefWidth="286.0">
+                                 <children>
+                                    <TextArea layoutY="-2.0" prefHeight="104.0" prefWidth="394.0" text="1.Convenience &#10;Book appointments at your convenience, 24/7, &#10;without the hassle of phone calls or waiting rooms.&#10;&#10;2.Access to Specialists&#10;Connect with a wide range of trusted healthcare &#10;professionals, ensuring you receive the care you need.&#10;&#10;3.Privacy and Security &#10;Your information is kept secure and private, &#10;in compliance with industry standards and regulations.&#10;&#10;4.Telemedicine Options &#10;Experience the benefits of virtual consultations for &#10;select appointments, saving you time and travel." />
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="Key Features">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="371.0" prefWidth="366.0">
+                                 <children>
+                                    <TextArea prefHeight="96.0" prefWidth="394.0" text="1.Effortless Appointment Booking&#10;Our intuitive interface allows you to schedule &#10;appointmentswith ease. Simply select your preferred&#10;date, time, and specialty, and you're on your way &#10;to personalized healthcare.&#10;&#10;2.Wide Network of Trusted Providers&#10;We partner with a diverse range of certified healthcare &#10;professionals, ensuring you have access to specialists &#10;across various medical fields.&#10;&#10;3.Real-Time Availability Updates&#10;Our platform provides up-to-the-minute availability &#10;of doctors, allowing you to choose appointments that &#10;fit seamlessly into your schedule.&#10;&#10;4.User-Friendly Profile Management&#10;Create and manage your personal profile for a tailored&#10;experience. Store medical history, insurance&#10;information, and preferences for efficient future &#10;bookings.&#10;&#10;5.Reminders and Notifications&#10;Receive timely reminders for upcoming appointments &#10;and notifications in case of any changes.&#10;&#10;6.Telemedicine Integration&#10;Experience the convenience of virtual consultations&#10;with select providers, allowing you to connect with &#10;healthcare professionals from the comfort of your&#10;home.&#10;&#10;7.Secure and Private&#10;We prioritize the security and privacy of your &#10;information. Our platform employs industry-standard &#10;encryption and compliance with healthcare data&#10;protection regulations." />
+                                 </children></AnchorPane>
+                          </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+                  <ImageView fitHeight="138.0" fitWidth="207.0" layoutX="433.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/firstlogobg.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
